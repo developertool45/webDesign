@@ -1,5 +1,3 @@
-# Developer design
+# Designing part
 
-this is my first git repo
-<br>
-changing something
+Auther : Developer_r
