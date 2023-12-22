@@ -78,6 +78,9 @@
         
     }
 }
+#id-new{
+    columns: 0;
+}
 .navbar-toggler {
     background-color: #bcbcbc;
 }
