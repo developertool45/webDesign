@@ -11,6 +11,7 @@
     border-radius: 5px;
 }
 
+
 .bottom{
     border: 1px solid gray;
 }
@@ -50,6 +51,13 @@
 .hoverDiff:hover {
    background-color: #ffc107;
    color: rgb(40, 39, 39); 
+}
+.bg-color-head{
+    background-color: rgb(0 45 112);
+    color: aliceblue;
+}
+.bg-color-head  h1{    
+    color: aliceblue !important;
 }
 .bg-color {
     background-color: rgb(0 45 112);
