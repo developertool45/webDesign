@@ -19,7 +19,7 @@
     padding-left: 9px;
     border-radius: 5px;
 }
-.text-color {
+.text-color{
     color: rgb(240, 10, 114);
 }
 .iconSize {
@@ -70,6 +70,9 @@
         
     }
 }
+<<<<<<< HEAD
 .navbar-toggler {
     background-color: #bcbcbc;
 }
+=======
+>>>>>>> 3e34f4cbd929258daece9d6060561d0bb5e313f6
