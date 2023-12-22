@@ -231,13 +231,34 @@
     <!-- contact form -->
 
     <div class="container">
-        <div class="row">
-            <h1> contact us</h1>
-            <div class="input-group flex-nowrap">
-            <span class="input-group-text" id="addon-wrapping">@</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"> <br>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+        <div class="row my-5">
+            <div class=" col-md-3"></div>
+            <div class=" col-md-6">                 
+                <form>
+                   <div class="row">
+                    <div class="col-md-6 mb-2">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" required>
+                    </div>
+                   </div>
+                   
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
             </div>
+            <div class=" col-md-3">  </div>
         </div>
     </div>
 
