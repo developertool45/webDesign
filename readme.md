@@ -1,3 +1,3 @@
 # Designing part
 
-Auther : Developer_r
+Auther : _rSelf
